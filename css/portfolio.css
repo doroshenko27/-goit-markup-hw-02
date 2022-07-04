@@ -1,0 +1,42 @@
+:root {
+    --color-text: #212121;
+    --color-title-second: #FFFFFF;
+    --color-accent: #757575;
+    --color-logo: #2196F3;
+}
+/*кнопки навигации*/
+.button{
+    color: var(--color-title-second);
+        background-color: var(--color-logo);
+        cursor: pointer;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.60;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+h3,
+p{
+    text-decoration: none;
+}
+h3 {
+    color: var(--color-text);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+p {
+    color: var(--color-accent);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}

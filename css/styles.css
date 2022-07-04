@@ -1,3 +1,149 @@
+:root{
+    --color-text: #212121;
+    --color-title-second: #FFFFFF;
+    --color-accent: #757575;
+--color-logo: #2196F3;
+}
 body {
-    font-family: Roboto, sans-serif;
+    font-family: roboto, sans-serif;
+    color: #FFFFFF;
+}
+.list{
+    list-style: none;
+}
+/*навигация страницы*/
+.site-nav .link{
+    color: #212121;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+   
+}
+.auth-nav .link{
+    color: #757575;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.02em;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--color-logo);
+}
+/*main*/
+/*business*/
+.business-title{
+color: var(--color-title-second);
+background-color: var(--color-text);
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.40;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/*button*/
+.business-btn{
+    color: var(--color-title-second);
+    background-color: var(--color-logo);
+    cursor: pointer;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+/*feature*/
+.feature-list .title{
+    color: var(--color-text);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.03em;
+        text-transform: uppercase
+}
+.feature-list .ftr-text{
+    color: var(--color-accent);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+/*Work*/
+.work-title{
+    color: var(--color-text);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+/*Command*/
+.command-title{
+    color: var(--color-text);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.command-text{
+    color: var(--color-accent);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+/*footer*/
+.footer-maps{
+    color: var(--color-title-second);
+    background-color: var(--color-text);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.70;
+        letter-spacing: 0.03em;
+}
+.footer-list .link{
+    color: var(--color-accent);
+    color: var(--color-logo);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.02em;
+}
+.footer-list .link:hover,
+.footer-list .link:focus{
+    color: var(--color-logo);
+    
 }
