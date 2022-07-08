@@ -8,14 +8,15 @@
     --color-title: #ECECEC;
     --title-accent: #EEEEEE;
     --color-logo: #2196F3;
+    --background-color-btn:#118CE8 ;
     --transparency: rgba(255, 255, 255, 0.6);
 }
 body {
     font-family: roboto, sans-serif;
     background-color: var(--color-title-second);
-    color: var(--color-blak);
+    color: var(--color-text);
     font-size: 14px;
-    letter-spacing: 003px;
+    letter-spacing: 0,03cm;
 }
 .visually-hidden {
     position: absolute;
@@ -40,10 +41,12 @@ body {
     color: var(--color-logo);
 }
 .header-logo{
+    font-family: Raleway, sans-serif;
     font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        color: var(--color-blak);
 }
 .site-nav .link{
     color: #212121;
@@ -101,7 +104,7 @@ font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        line-height: 1.9;
+        line-height: 1.88;
         display: flex;
         align-items: center;
         text-align: center;
@@ -109,8 +112,8 @@ font-family: 'Roboto';
 }
 .business-btn:hover,
 .business-btn:focus{
-        color:var(--color-logo);
-        background-color: var(--color-title-second);
+        
+        background-color: #118CE8;
 }
 /*feature*/
 .feature-list .title{
@@ -143,12 +146,16 @@ font-family: 'Roboto';
         letter-spacing: 0.03em;
 }
 /*Command*/
+.command{
+    font-size: var(--backround-title);
+}
 .command-title{
         color: var(--color-text);
-        font-family: 'Roboto';
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
+        font-weight: 700;
+            font-size: 36px;
+            line-height: 1.16;
+            text-align: center;
+            letter-spacing: 0.03em;
 }
 .command-name{
     color: var(--color-blak);
@@ -172,11 +179,12 @@ footer{
     background-color: var(--background-color);
 }
 .footer-logo{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-
+    font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--color-title-second);
 }
 .auth-nav .footer-maps{
     color: var(--color-title-second);
@@ -189,7 +197,6 @@ footer{
 /* Стили для портфолио */
 /*кнопки навигации*/
 .button-nav{
-        color: var(--backround-title);
         background-color: var(--backround-title);
         cursor: pointer;
         font-family: 'Roboto';
@@ -199,7 +206,7 @@ footer{
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color:var(--color-text);
 }
 .button-nav:hover,
 .button-nav:focus{
